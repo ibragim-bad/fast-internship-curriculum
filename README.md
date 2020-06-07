@@ -31,34 +31,35 @@
 4. Deep learning
 
 ## 1. Python. Алгоритмы и структуры данных.
-1. Для знакомства с питоном подойдет документация, так как в ней есть краткий курс.  [Русский](https://pythoner.name/documentation/tutorial) (версия питона 3.6, но суть основа та же). [Английский](https://docs.python.org/3.8/tutorial/index.html). _Если нет времени, то пройдите хотя бы до стандартной библиотеки (1-9 темы)._
+1. Для знакомства с питоном подойдет документация, так как в ней есть краткий курс.  [Русский](https://pythoner.name/documentation/tutorial)/[Английский](https://docs.python.org/3.8/tutorial/index.html). _Если нет времени, то пройдите хотя бы до стандартной библиотеки (1-9 темы)._
 2. Есть неплохой [буткемп от 42-ai](https://github.com/42-AI/bootcamp_python). _Если нет времени, пройдите с 0 по 2 день._ 
-3. Понимание алгоритмической сложности, базовых структур данных и алгоритмов нужно на большинстве собесов (если не на всех). [Intro to Data Structures and Algorithms ](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) Несложный курс на питоне, которого хватит для понимания. _Курс простой, поэтому пройдите все, даже если нет времени._
+3. Понимание алгоритмической сложности, базовых структур данных и алгоритмов нужно на большинстве собесов (если не на всех). [Intro to Data Structures and Algorithms ](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513). Несложный курс на питоне, которого хватит для понимания. _Курс простой, поэтому пройдите все, даже если нет времени._
 
 ### Проект по питону (тратить 2-3 дня, не больше).
-Напишите бота в телеге на питоне, исользуя любой [публичный api](https://github.com/public-apis/public-apis)
-1. Задача минимум: Сделайте работающего бота хотя бы в colab.
-2. Задача максимум: Возьмите машинку на aws или gcs (на aws первый год бесплатный, на гугле дают 300$ на первый год). Оберните бота в докер, поднимите docker compose, прикрутите базу данных, чтобы сохранять юзеров, которые пишут в бота и все, что угодно до чего додумаетесь)
+Напишите бота в телеге на питоне, исользуя любой [публичный api](https://github.com/public-apis/public-apis).
+1. Задача минимум: Сделайте работающего бота хотя бы в [google colab](https://colab.research.google.com/notebooks/intro.ipynb).
+2. Задача максимум: Возьмите машину на aws или gcs (на aws первый год бесплатный, на гугле дают 300$ на первый год). Оберните бота в докер, поднимите docker compose, прикрутите базу данных, чтобы сохранять юзеров, которые пишут в бота и все, что угодно до чего додумаетесь).
 
 ## 2. Математика.
-1. [Список нужных тем](https://docs.google.com/document/d/1VpykmbzA_QwLdDlv2gxfIL0-Smht6lntofpVxN-ZJhU/edit?usp=sharing) _Если нет времени, отметил в доке то, что необходимо знать._
+1. [Список нужных тем](https://docs.google.com/document/d/1VpykmbzA_QwLdDlv2gxfIL0-Smht6lntofpVxN-ZJhU/edit?usp=sharing). _Если нет времени, отметил в доке то, что необходимо знать._
 Посмотрите два плейлиста 3blues1brown [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr). _Если нет времени, видео от 3blues1brown смотрите только по темам, которые отмечены желтым в доке._
 
-2. [Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills) _Если нет времени скипните теорию тем, которые знаете, просто проверив себя на решении квизов._
+2. [Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills). _Если нет времени скипните теорию тем, которые знаете, просто проверив себя на решении квизов._
 
 ## 3. Введение в ML и классические алгоритмы
-1. [mlcourse](https://habr.com/ru/company/ods/blog/322626/) _Если нет времени, то пройдите темы 1-5, 7._
+1. [mlcourse](https://habr.com/ru/company/ods/blog/322626/). _Если нет времени, то пройдите темы 1-5, 7._
 
 ## 4. Deep Learning
-1. [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/) Курс вводный, но является хорошой базой + в практике знакомит с tensorflow. _Если нет времени, пройдите 1-4 темы и решите первые две лабы._
-2. [Нейронные сети и компьютерное зрение](https://stepik.org/course/50352/promo) _Даже если нет времени, пройдите полностью_
-3. [Нейронные сети и обработка текста](https://stepik.org/course/54098/promo) _Даже если нет времени, пройдите полностью_
+1. [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/). Курс вводный, но является хорошой базой + в практике знакомит с tensorflow. _Если нет времени, пройдите 1-4 темы и решите первые две лабы._
+2. [Нейронные сети и компьютерное зрение](https://stepik.org/course/50352/promo). _Даже если нет времени, пройдите полностью_
+3. [Нейронные сети и обработка текста](https://stepik.org/course/54098/promo). _Даже если нет времени, пройдите полностью_
 
 ### Проект: поучаствуйте в соревновании на kaggle.
 
 1. Выберите [активное соревнование](https://www.kaggle.com/competitions). Посмотрите public kernels. Попробуйте улучшить результат (потратьте 2-3 дня, чтобы собрать собственный пайплайн и сделать первый сабмит).
 
-**Успехов!** Если будут вопросы, пишите в слаке школы, ник: **jfrankly.** или в [ods](https://ods.ai/) **ibragim**
+Если будут вопросы, пишите в слаке школы, ник: **jfrankly** или в [ods](https://ods.ai/) **ibragim**.
+**Успехов!** 
 
 
 
