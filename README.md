@@ -23,7 +23,7 @@
 4. Deep learning
 
 ## Python. Алгоритмы и структуры данных.
-1. Для знакомства с питоном хорошо подойдет документация, так как в ней есть краткий курс.  [Русская](https://pythoner.name/documentation/tutorial)(в ней версия питона 3.6, так что норм). [Английская](https://docs.python.org/3.8/tutorial/index.html). Если нет времени, то пройдите хотя бы до стандартной библиотеки (1-9 темы).
+1. Для знакомства с питоном хорошо подойдет документация, так как в ней есть краткий курс.  [Русская](https://pythoner.name/documentation/tutorial) (в ней версия питона 3.6, но суть та же, что и в более новых). [Английская](https://docs.python.org/3.8/tutorial/index.html). Если нет времени, то пройдите хотя бы до стандартной библиотеки (1-9 темы).
 2. Есть неплохой [буткемп от 42-ai](https://github.com/42-AI/bootcamp_python). Если нет времерни, пройдите с 0 по 2 день. 
 3. Понимание алгоритмической сложности, базовых структур данных и алгоритмов нужно на большинстве собесов (если не на всех). [Intro to Data Structures and Algorithms ](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) Вот несложный курс на питоне, которого хватит для понимания. Курс простой, поэтому пройдите все, даже если нет времени.
 
@@ -33,13 +33,24 @@
 2. Задача максимум: Возьмите машинку на aws или gcs (на aws первый год бесплатный, на гугле дают 300$ на первый год). Оберните бота в докер, поднимите docker compose, прикрутите базу данных, чтобы сохранять юзеров, которые пишут в бота и все, что угодно до чего додумаетесь)
 
 ## Математика.
-[Темы которые нужно разобрать](https://docs.google.com/document/d/1VpykmbzA_QwLdDlv2gxfIL0-Smht6lntofpVxN-ZJhU/edit?usp=sharing) Если нет времени, отметил в доке то, что необходимо знать.
+1. [Темы которые нужно разобрать](https://docs.google.com/document/d/1VpykmbzA_QwLdDlv2gxfIL0-Smht6lntofpVxN-ZJhU/edit?usp=sharing) Если нет времени, отметил в доке то, что необходимо знать.
 Как разбирать темы? Посмотрите два плейлиста от 3blues1brown [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr). Если нет времени, видео от 3blues1brown смотрите только по темам, которые отмечены желтым в доке.
 
-[Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills) Если нет времени скипните теорию тем, которые знаете, просто проверив себя на решении квизов. 
+2. [Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills) Если нет времени скипните теорию тем, которые знаете, просто проверив себя на решении квизов. 
 
+## Введение в ML и классические алгоритмы
+1. [mlcourse](https://habr.com/ru/company/ods/blog/322626/) Если нет времени, то пройдите темы 1-5, 7.
 
+## Deep Learning
+1. [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/) Курс вводный, но хороший + знакомит с tensorflow. Если нет времени, продйите 1-4 темы и решите первые две лабы.
+2. [Нейронные сети и компьютерное зрение](https://stepik.org/course/50352/promo) Даже если нет времени, пройдите полностью
+3. [Нейронные сети и обработка текста](https://stepik.org/course/54098/promo) Даже если нет времени, пройдите полностью
 
+### Проект: поучаствуйте в соревновании на kaggle.
+
+1. Выберите любое [активное соревнование](https://www.kaggle.com/competitions). Позапускайте, посмотрите public kernels. Попробуйте их улучшить (можно потратить 2-3 дня, чтобы собрать свой собственный пайплайн и сделать первый сабмит).
+
+Успехов! Если будут вопросы - пишите в слаке, ник: jfrankly.
 
 
 
