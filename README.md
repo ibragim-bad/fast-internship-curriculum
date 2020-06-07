@@ -22,6 +22,25 @@
 3. Введение в ML и классические алгоритмы
 4. Deep learning
 
+## Python. Алгоритмы и структуры данных.
+1. Для знакомства с питоном хорошо подойдет документация, так как в ней есть краткий курс.  [Русская](https://pythoner.name/documentation/tutorial)(в ней версия питона 3.6, так что норм). [Английская](https://docs.python.org/3.8/tutorial/index.html). Если нет времени, то пройдите хотя бы до стандартной библиотеки (1-9 темы).
+2. Есть неплохой [буткемп от 42-ai](https://github.com/42-AI/bootcamp_python). Если нет времерни, пройдите с 0 по 2 день. 
+3. Понимание алгоритмической сложности, базовых структур данных и алгоритмов нужно на большинстве собесов (если не на всех). [Intro to Data Structures and Algorithms ](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) Вот несложный курс на питоне, которого хватит для понимания. Курс простой, поэтому пройдите все, даже если нет времени.
+
+### Проект по питону (тратить 2-3 дня, не больше).
+Напишите бота в телеге на питоне, исользуя любой [публичный api](https://github.com/public-apis/public-apis)
+1. Задача минимум: Сделайте работающего бота хотя бы в colab.
+2. Задача максимум: Возьмите машинку на aws или gcs (на aws первый год бесплатный, на гугле дают 300$ на первый год). Оберните бота в докер, поднимите docker compose, прикрутите базу данных, чтобы сохранять юзеров, которые пишут в бота и все, что угодно до чего додумаетесь)
+
+## Математика.
+[Темы которые нужно разобрать](https://docs.google.com/document/d/1VpykmbzA_QwLdDlv2gxfIL0-Smht6lntofpVxN-ZJhU/edit?usp=sharing) Если нет времени, отметил в доке то, что необходимо знать.
+Как разбирать темы? Посмотрите два плейлиста от 3blues1brown [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr). Если нет времени, видео от 3blues1brown смотрите только по темам, которые отмечены желтым в доке.
+
+[Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills) Если нет времени скипните теорию тем, которые знаете, просто проверив себя на решении квизов. 
+
+
+
+
 
 
 
