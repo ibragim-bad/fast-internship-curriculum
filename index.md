@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# fast-internship-curriculum
+Делюсь материалами, которые в апреле 2019 года помогли мне найти стажировку по машинному обучению, а потом и работу (на работе занимаюсь NLP).
 
-You can use the [editor on GitHub](https://github.com/ibragim-bad/fast-internship-curriculum/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Для кого этот гайд?
+* студент школы 21 (необязательно)
+* интересно машинное обучение
+* хочется заниматься NLP или CV на стажировке
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Что делать если я не из школы 21?
+Выберите пункты гайда, которые интересны, но имейте в виду, что материалы гайда не включают следующие пункты, которые покрываются школьными проектами:
+* основы программирования
+* работа с командной строкой в unix
+* работа с git
+* составление резюме
 
-### Markdown
+## Общие рекомендации
+1. Гайд не ультимативный! Здесь приведены курсы, которые помогли мне + обогатил их, проработав год на позиции уже после стажировки.
+2. Все курсы - **бесплатные**.
+3. Если нужный материал есть на русском, оставляю ссылку и на него.
+4. Если хотите, чтобы процесс обучения был более продуктивным, пройдите/пролистайте [Learning how learn](https://www.coursera.org/learn/learning-how-to-learn). Проходится  за один день, но может сэкономить вам много времени.
+5. Курс можно пройти за **9 недель учебы фуллтайм по 6 дней в неделю (+-)**
+6. Я вставил мини-проекты, чтобы добавить практики. Но вы можете их заменить, на какой-то похожий аналог. Аналоги можно посмотреть [python+ml](https://github.com/tuvtran/project-based-learning#python) или [ml](https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning#machine-learning--ai), но не забывайте, что это не должно занимать много времени.
+7. Оцените для себя время для "застревания". Это время, которое вы можете потратить на тему/задание внутри курса без продвижения вперед (например: 3 часа или день). Если в течение этого времени прогресса нет, то скипайте задание и переходите дальше.
+8. Есть русскоязычное коммьюнити по data science: [ods](https://ods.ai/)
+9. **Для тех, кто супер спешит: _проходите только то, что написано курсивом_.**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Содержание
+1. Python. Алгоритмы и структуры данных.
+2. Базовая математика для машинного обучения
+3. Введение в ML и классические алгоритмы
+4. Deep learning
 
-```markdown
-Syntax highlighted code block
+## 1. Python. Алгоритмы и структуры данных.
+1. Для знакомства с питоном подойдет документация, так как в ней есть краткий курс.  [Русский](https://pythoner.name/documentation/tutorial)/[Английский](https://docs.python.org/3.8/tutorial/index.html). _Если нет времени, то пройдите хотя бы до стандартной библиотеки (1-9 темы)._
+2. Есть неплохой [буткемп от 42-ai](https://github.com/42-AI/bootcamp_python). _Если нет времени, пройдите с 0 по 2 день._ 
+3. Понимание алгоритмической сложности, базовых структур данных и алгоритмов нужно на большинстве собесов (если не на всех). [Intro to Data Structures and Algorithms ](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513). Несложный курс на питоне, которого хватит для понимания. _Курс простой, поэтому пройдите все, даже если нет времени._
 
-# Header 1
-## Header 2
-### Header 3
+### Проект по питону (тратить 2-3 дня, не больше).
+Напишите бота в телеге на питоне, исользуя любой [публичный api](https://github.com/public-apis/public-apis).
+1. Задача минимум: Сделайте работающего бота хотя бы в [google colab](https://colab.research.google.com/notebooks/intro.ipynb).
+2. Задача максимум: Возьмите машину на aws или gcs (на aws первый год бесплатный, на гугле дают 300$ на первый год). Оберните бота в докер, поднимите docker compose, прикрутите базу данных, чтобы сохранять юзеров, которые пишут в бота и все, что угодно до чего додумаетесь).
 
-- Bulleted
-- List
+## 2. Математика.
+1. [Список нужных тем](https://docs.google.com/document/d/1VpykmbzA_QwLdDlv2gxfIL0-Smht6lntofpVxN-ZJhU/edit?usp=sharing). _Если нет времени, отметил в доке то, что необходимо знать._
+Посмотрите два плейлиста 3blues1brown [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [The Essence of Calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr). _Если нет времени, видео от 3blues1brown смотрите только по темам, которые отмечены желтым в доке._
 
-1. Numbered
-2. List
+2. [Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills). _Если нет времени скипните теорию тем, которые знаете, просто проверив себя на решении квизов._
 
-**Bold** and _Italic_ and `Code` text
+## 3. Введение в ML и классические алгоритмы
+1. [mlcourse](https://habr.com/ru/company/ods/blog/322626/). _Если нет времени, то пройдите темы 1-5, 7._
 
-[Link](url) and ![Image](src)
-```
+## 4. Deep Learning
+1. [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/). Курс вводный, но является хорошой базой + в практике знакомит с tensorflow. _Если нет времени, пройдите 1-4 темы и решите первые две лабы._
+2. [Нейронные сети и компьютерное зрение](https://stepik.org/course/50352/promo). _Даже если нет времени, пройдите полностью_
+3. [Нейронные сети и обработка текста](https://stepik.org/course/54098/promo). _Даже если нет времени, пройдите полностью_
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Проект: поучаствуйте в соревновании на kaggle.
 
-### Jekyll Themes
+1. Выберите [активное соревнование](https://www.kaggle.com/competitions). Посмотрите public kernels. Попробуйте улучшить результат (потратьте 2-3 дня, чтобы собрать собственный пайплайн и сделать первый сабмит).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ibragim-bad/fast-internship-curriculum/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Если будут вопросы, пишите в слаке школы, ник: **jfrankly** или в [ods](https://ods.ai/) **ibragim**.
+**Успехов!** 
